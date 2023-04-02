@@ -15,3 +15,6 @@ WORKDIR /adevguide
 COPY --from=maven target/webapp-0.2-*.war ./webapp-0.2.war
 
 CMD ["java", "-war", "./webapp-0.2.war"]
+
+
+# for reference https://www.adevguide.com/dockerize-java-application-maven-with-dockerfile/
